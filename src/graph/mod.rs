@@ -3,7 +3,7 @@ pub mod dijkstra;
 type Weight = i64;
 
 #[derive(Clone,Copy)]
-pub struct WeightedEdge{
+pub struct WeightedEdge {
     pub to : usize,
     pub weight : Weight,
 }
@@ -49,4 +49,3 @@ mod test{
         assert_eq!(g[1][0].weight,4);
     }
 }
-
